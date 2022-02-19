@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Project</title>
+</head>
+<body>
+    <header>
+        <h1>🎼HUM🎼</h1>
+    </header>
+    <nav>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">정보</a>
+            <a href="#">서비스</a>
+            <a href="#">고객</a>
+            <a href="#">타 사이트</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ 더 알아보기</button>
+          </div>
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "200px";
+              document.getElementById("main").style.marginLeft = "200px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="item" id="artist">오늘의 아티스트 <br><br>
+                <a href="https://namu.wiki/w/%EC%9E%84%EC%B0%BD%EC%A0%95">임창정</a> <br>
+                <a href="https://namu.wiki/w/%EC%84%B1%EC%8B%9C%EA%B2%BD">성시경</a> <br>
+                <a href="https://namu.wiki/w/%EB%B0%98%ED%95%98%EB%82%98">반하나</a> <br>
+                <a href="https://namu.wiki/w/%EC%96%B4%EB%B0%98%EC%9E%90%EC%B9%B4%ED%8C%8C">어반자카파</a> <br>
+                <a href="https://namu.wiki/w/%ED%99%A9%EC%B9%98%EC%97%B4">황치열</a> <br>
+                <a href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%9C%A0">아이유</a> <br>
+                <a href="https://namu.wiki/w/%EC%9E%94%EB%82%98%EB%B9%84">잔나비</a> <br>
+                <a href="https://namu.wiki/w/%EB%85%B8%EC%9D%84">노을</a> <br>
+                <a href="https://namu.wiki/w/%ED%8E%80%EC%B9%98(%EA%B0%80%EC%88%98)">펀치</a> <br>
+                <a href="https://namu.wiki/w/%EB%B0%95%ED%98%9C%EC%9B%90(%EA%B0%80%EC%88%98)">박혜원</a> <br>
+            </div>
+            <div class="item" id="album">오늘의 앨범 <br><br>
+                <img id="image" src="https://image.yes24.com/goods/70861317/XL">
+            </div>
+            <div class="item" id="login">로그인 <br><br>
+                <fieldset id="field">
+                    <label for="id">
+                        <input type="text" name="id" style="width: 200px;" placeholder="아이디">
+                        <input type="text" name="pw" style="width: 200px;" placeholder="비밀번호">
+                        <input type="button" style="width: 80px;" value="Login"> <br>
+                        <input type="button" style="width: 80px;" value="Join">
+                    </label>
+                </fieldset>
+            </div>
+            <div class="item" id="song">오늘의 노래 <br><br>
+                <iframe src="https://youtube.com/embed/m3DZsBw5bnE" style="width: 500px; height: 300px;"></iframe>
+                <iframe src="https://www.youtube.com/embed/6k6EekzWeos" style="width: 500px; height:300px;"></iframe>
+                <iframe src="https://www.youtube.com/embed/ejrhM4cLN-U" style="width: 500px; height:300px;"></iframe>
+                <iframe src="https://www.youtube.com/embed/MfYPKZl7W1w" style="width: 500px; height: 300px;"></iframe>
+            </div>
+            <div class="item" id="cover">오늘의 커버 <br><br>
+                <iframe src="https://www.youtube.com/embed/ui9cLwNXpxc" style="width: 500px; height: 300px"></iframe>
+                <iframe src="https://www.youtube.com/embed/tfqJ668WzUA" style="width: 500px; height: 300px"></iframe>
+                <iframe src="https://www.youtube.com/embed/hkNCR8RLHUM" style="width: 500px; height: 300px"></iframe>
+                <iframe src="https://www.youtube.com/embed/3qkZdRKeYP4" style="width: 500px; height: 300px"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>본 페이지는 학습용임을 밝힙니다. <br>
+        <del>출처 : https://image.yes24.com/goods/70861317/XL</del>
+    </footer>
+</body>
+</html>
