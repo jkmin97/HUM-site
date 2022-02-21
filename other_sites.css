@@ -80,16 +80,6 @@ nav {
     }
 }
 
-#other {
-    float: left;
-    border: 0.2vw solid black;
-    width: 97vw;
-    height: 53vh;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
 #plus {
     float: left;
     border: 0.2vw solid black;
