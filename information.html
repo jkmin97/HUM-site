@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="information.css">
+    <title>information</title>
+</head>
+<body>
+    <header>
+        <h1>🎼HUM🎼</h1>
+    </header>
+    <nav>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="https://jkmin97.github.io/HTML/index.html">홈</a>
+            <a href="#">정보</a>
+            <a href="#">서비스</a>
+            <a href="#">고객</a>
+            <a href="https://jkmin97.github.io/HTML/other_sites.html">타 사이트</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ 더 알아보기</button>
+          </div>
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "200px";
+              document.getElementById("main").style.marginLeft = "200px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+    </nav>
+    <main>
+        <div id="box1"></div>      
+    </main>
+    <footer>
+    <div id="update"><center>채워지는 중이에요! 업데이트를 기대해주세요!</center></div>
+    </footer>
+  </body>
+</html>
